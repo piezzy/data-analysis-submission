@@ -9,8 +9,8 @@ st.sidebar.write("Nama: Mohammad Hikam")
 st.sidebar.write("Email: muhamadhikam94@gmail.com")
 
 # Load data
-day_df = pd.read_csv('day_cleaned.csv')
-hour_df = pd.read_csv('hour_cleaned.csv')
+day_df = pd.read_csv('data/day_cleaned.csv')
+hour_df = pd.read_csv('data/hour_cleaned.csv')
 
 st.title("Analisis Penyewaan Sepeda")
 
