@@ -3,8 +3,6 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-# Menambahkan judul dan deskripsi di sidebar
-st.sidebar.image('bikerent.jpg', use_column_width=True)
 
 st.sidebar.header("Identitas Saya")
 st.sidebar.write("Nama: Mohammad Hikam")
